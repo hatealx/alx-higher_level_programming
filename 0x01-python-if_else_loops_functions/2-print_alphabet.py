@@ -3,5 +3,6 @@
 s = 97
 
 while (s <= 122):
-    print(chr(s), end="")
+    c = chr(s)
+    print("{}".format(c), end="")
     s += 1
