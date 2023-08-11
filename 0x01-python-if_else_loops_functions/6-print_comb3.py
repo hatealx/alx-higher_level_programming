@@ -7,4 +7,4 @@ for i in range(0, 8):
             continue
         print("{}{}, ".format(i,j), end="")
     n += 1
-print("{}{}\n".format(8, 9))
+print("{}{}".format(8, 9))
