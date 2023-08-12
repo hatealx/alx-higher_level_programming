@@ -5,9 +5,9 @@ from sys import argv
 def args():
     ars = len(argv) - 1
     if (ars == 0):
-        print(f"{0} arguments")
+        print(f"{0} arguments.")
     elif (ars == 1):
-        print(f"{ars} argument")
+        print(f"{ars} argument:")
         print(f"{ars}: {argv[1]}")
     elif (ars > 1):
         print(f"{ars} arguments:")
