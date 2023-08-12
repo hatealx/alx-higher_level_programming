@@ -6,7 +6,7 @@ def main():
     sum = 0
     if(len(argv) == 1):
         print(0)
-        return
+        pass
 
     for i in range(1, (len(argv))):
         sum += int(argv[i])
