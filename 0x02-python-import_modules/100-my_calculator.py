@@ -24,15 +24,15 @@ def main():
         sys.exit(0)
     elif (operator == "*"):
         res = mul(a, b)
-        print(f"{a} + {b} = {res}")
+        print(f"{a} * {b} = {res}")
         sys.exit(0)
     elif (operator == "-"):
         res = sub(a, b)
-        print(f"{a} + {b} = {res}")
+        print(f"{a} - {b} = {res}")
         sys.exit(0)
     else:
         res = div(a, b)
-        print(f"{a} + {b} = {res}")
+        print(f"{a} / {b} = {res}")
         sys.exit(0)
 
 
