@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
     for li in matrix:
         for el in li:
