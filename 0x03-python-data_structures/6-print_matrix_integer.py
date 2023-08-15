@@ -9,5 +9,4 @@ def print_matrix_integer(matrix=[[]]):
             else:
                 print("{:d}".format(el), end="")
             i += 1
-
-        print("{}".format(n), end="")
+        print("")
