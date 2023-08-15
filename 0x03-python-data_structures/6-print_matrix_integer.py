@@ -5,9 +5,9 @@ def print_matrix_integer(matrix=[[]]):
         i = 0
         for el in li:
             if (i < 2):
-                print("{}".format(el), end=" ")
+                print("{:d}".format(el), end=" ")
             else:
-                print("{}".format(el), end="")
+                print("{:d}".format(el), end="")
             i += 1
 
         print("{}".format(n), end="")
