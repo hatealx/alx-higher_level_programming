@@ -14,4 +14,4 @@ class Square:
              size (int): size of a side of one square
         return: None
         """
-        self._size = size
+        self.__size = size
