@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Defines a  class Rectangle with many attributes
 """
@@ -22,6 +23,7 @@ class Rectangle:
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
+        self.__width = value
 
     @property
     def height(self):
@@ -30,8 +32,9 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        """setter of the instance attribute height"""
+        """setter of the instance attribute height now"""
         if type(value) is not int:
             raise TypeError("height must me be an integer")
         if value < 0:
             raise ValueError("height must be  >= 0")
+        self.__height = value
