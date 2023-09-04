@@ -61,9 +61,9 @@ class Rectangle:
         c = 0
         for i in range(c, self.__height):
             if c == self.__height - 1:
-                st += (f"{Rectangle.print_symbol}" * self.__width)
+                st += (f"{str(self.print_symbol)}" * self.__width)
                 break
-            st += (f"{str(Rectangle.print_symbol)}" * self.__width) + "\n"
+            st += (f"{str(self.print_symbol)}" * self.__width) + "\n"
             c += 1
         return st
 
