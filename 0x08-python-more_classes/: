@@ -55,9 +55,10 @@ class Rectangle:
         st = ""
         c = 0
         for i in range(c, self.__height):
-            if c == self.__height - 1:
-                st += ("#" * self.__width)
+            if c == self.__height:
+                st += ("#" * self.__width) - 1
                 break
             st += ("#" * self.__width) + "\n"
             c += 1
+        print(c)
         return st
