@@ -1,10 +1,11 @@
 #!/usr/bin/python3
+"""Defines a rectangle class."""
 from models.base import Base
-"""write a class that inherit from a parent class"""
 
 
 class Rectangle(Base):
-    """class rectangle that inherit from Base class"""
+    """Represent a rectangle."""
+
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initialize a new Rectangle.
         Args:
@@ -55,6 +56,7 @@ class Rectangle(Base):
     def x(self):
         """Set/get the x coordinate of the Rectangle."""
         return self.__x
+
     @x.setter
     def x(self, value):
         if type(value) != int:
@@ -74,3 +76,4 @@ class Rectangle(Base):
             raise TypeError("y must be an integer")
         if value < 0:
             raise ValueError("y must be >= 0")
+        self.__y = value
