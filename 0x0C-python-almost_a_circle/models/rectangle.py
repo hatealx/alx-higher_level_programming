@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+from models.base import Base
 """write a class that inherit from a parent class"""
 
 
