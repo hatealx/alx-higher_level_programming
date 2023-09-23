@@ -96,4 +96,5 @@ class Rectangle(Base):
 
     def __str__(self):
         """informal display of rectangle"""
-        return (f"[Rectangle] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}")
+        a = (f"[Rectangle] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}")
+        return a
